@@ -27,12 +27,12 @@ var childrens = secondlist.children
 var dog = [];
 var cat = [];
 for (var i = 0; i < children.length; i++) { //first list
-  children[i].innerHTML = children[i]
+  children[i].innerHTML = children[i] + n
 }
 return children
 
 for (var i = 0; i < childrens.length; i++) { //second list
-  cat[i].innerHTML = childrens[i]
+  cat[i].innerHTML = childrens[i] + n
 }
 return cat
 
