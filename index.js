@@ -27,12 +27,12 @@ var childrens = secondlist.children
 var dog = [];
 var cat = [];
 for (var i = 0; i < children.length; i++) { //first list
-  children[i] = parseInt(children[i]) + n
+  children[i].innerHTML = parseInt(children[i]) + n
 }
 return children
 
 for (var i = 0; i < childrens.length; i++) { //second list
-  cat[i] = parseInt(childrens[i]) + n
+  cat[i].innerHTML = parseInt(childrens[i]) + n
 }
 return cat
 
