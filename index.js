@@ -24,15 +24,13 @@ var firstlist = element[0];
 var children = firstlist.children;
 var secondlist = element[1];
 var childrens = secondlist.children
-var dog = [];
-var cat = [];
 for (var i = 0; i < children.length; i++) { //first list
   children[i].innerHTML = children[i] + n
 }
 return children
 
 for (var i = 0; i < childrens.length; i++) { //second list
-  cat[i].innerHTML = childrens[i] + n
+  childrens[i].innerHTML = childrens[i] + n
 }
 return cat
 
