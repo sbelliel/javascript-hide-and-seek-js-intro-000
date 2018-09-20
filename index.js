@@ -32,6 +32,6 @@ return children
 for (var i = 0; i < childrens.length; i++) { //second list
   childrens[i].innerHTML = childrens[i] + n
 }
-return cat
+return childrens
 
 }
