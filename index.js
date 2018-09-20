@@ -27,11 +27,7 @@ var childrens = secondlist.children
 for (var i = 0; i < children.length; i++) { //first list
   element[0][i].innerHTML = element[0][i] + n
 }
-return children
-
 for (var i = 0; i < childrens.length; i++) { //second list
-  childrens[i].innerHTML = childrens[i] + n
+  element[1][i].innerHTML = element[1][i] + n
 }
-return childrens
-
 }
